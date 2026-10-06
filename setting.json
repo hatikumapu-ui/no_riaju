@@ -1,0 +1,7 @@
+{
+  "maxCharacters": 20,
+  "volume": 0.8,
+  "characterSize": 100,
+  "bombSize": 140,
+  "spawnInterval": 60
+}

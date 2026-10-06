@@ -1,0 +1,39 @@
+/* STREAMING_CHUNK:フォントと全体基本スタイルの定義... */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&display=swap');
+
+body {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+overflow: hidden;
+background-color: #1a102f;
+}
+
+/* STREAMING_CHUNK:テキストシャドウとアーケードボタン風スタイルの定義... */
+.text-shadow-pop {
+text-shadow: 0 0 10px rgba(255, 0, 128, 0.8), 3px 3px 0px #000;
+}
+
+.btn-arcade {
+transition: all 0.1s ease;
+box-shadow: 0 6px 0 rgba(0,0,0,0.3);
+}
+
+.btn-arcade:active {
+transform: translateY(4px);
+box-shadow: 0 2px 0 rgba(0,0,0,0.3);
+}
+
+/* STREAMING_CHUNK:カスタムスクロールバーの定義... */
+::-webkit-scrollbar {
+width: 8px;
+}
+::-webkit-scrollbar-track {
+background: rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+background: rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+}
